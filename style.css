@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+#navbarSupportedContent>ul>li:nth-child(n)>a{
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 0 0.8rem;
+}
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover,
+#navbarSupportedContent>ul>li:nth-child(n)>a:active{
+    color: #00BF85;
+}
+#navbarSupportedContent > button{
+    background-color: #00BF85;
+    padding: 0.4rem 1.4rem;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mid .virtual-bank{
+    position: relative;
+}
+.mid .virtual-bank p{
+    width: 55%;
+    letter-spacing: 0.2px;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+.mid .virtual-bank a{
+    background-color: #00BF85;
+    padding: 0.4rem 1.4rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.mid .virtual-bank a:hover{
+    background-color: #fff;
+}
+/* About section */
+.about{
+    background-color: #000;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h6{
+    color: #00BF85;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.about .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.about .text p {
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.about .text a {
+    background-color: #00BF85;
+    padding: 0.4rem 1.4rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+}
+/* Discover section */
+.discover {
+    background-color: #fff;
+}
+
+.discover .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discover .text h6 {
+    color: #00BF85;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.discover .text h2 {
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.discover .text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.discover .text a {
+    background-color: #111;
+    padding: 0.4rem 1.4rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.discover .text a:hover{
+    background-color: #00BF85;
+    color: #111;
+}
+/*Service section*/
+.service{
+    background-color: #111;
+}
+.service .one{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+}
+/*SignUp section*/
+.signup {
+    background-color: #fff;
+}
+
+.signup .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.signup .text h6 {
+    color: #00BF85;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.signup .text h2 {
+    color: #111;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.signup .text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.signup .text a {
+    background-color: #111;
+    padding: 0.4rem 1.4rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Footer*/
+.footer-section{
+    background-color: #111;
+    color: #fff;
+}
+.footer-section .fa{
+    font-size: 20px;
+    color: rgb(12, 146, 95);
+    cursor: pointer;
+    margin-top: 20px;
+}
+.footer-section .fa:hover{
+    color: orangered;
+}
+.footer-text{
+    font-size: 20px;
+}
+.footer-text a:hover{
+    color: orange;
+    text-decoration: none;
+}
+.footer-text a{
+    color: green;
+}
